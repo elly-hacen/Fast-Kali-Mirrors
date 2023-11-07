@@ -7,7 +7,7 @@ To configure Kali Linux repositories on your system, follow these steps:
 2. Edit the `/etc/apt/sources.list` file using a text editor such as `nano` or `vim`. You will need superuser privileges, so use `sudo` or become the root user if necessary. For example:
 
    ```bash
-   sudo nano /etc/apt/sources.list
+   $ sudo nano /etc/apt/sources.list
    ```
 
 3. Comment out any existing repository URLs by adding a `#` (hash) symbol at the beginning of the lines. This will prevent the system from using those repositories. For example:
